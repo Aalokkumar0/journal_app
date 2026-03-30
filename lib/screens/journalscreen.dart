@@ -15,7 +15,7 @@ class _JournalscreenState extends State<Journalscreen> {
         backgroundColor: Colors.black,
         title: Center(
           child: Text(
-            "The journals",
+            "The Journals",
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
           ),
         ),
