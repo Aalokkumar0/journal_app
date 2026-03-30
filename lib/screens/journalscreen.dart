@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:journal_app/screens/widget/cardscreen.dart';
 
 class Journalscreen extends StatefulWidget {
   const Journalscreen({super.key});
@@ -20,21 +21,12 @@ class _JournalscreenState extends State<Journalscreen> {
           ),
         ),
       ),
-      body: Center(
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
-              for (int i = 0; i <= 40; i++)
-                Text(
-                  "this is journal list $i",
-                  style: TextStyle(
-                    color: const Color.fromARGB(255, 45, 38, 38),
-                    fontSize: 23,
-                  ),
-                ),
-            ]
-          ),
-        ),
+      body: ListView.builder(
+        itemCount: 20, 
+        itemBuilder: (context, index){
+          return Cardscreen();
+        },
+        
       ),
     );
   }
