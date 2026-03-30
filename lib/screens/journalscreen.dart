@@ -25,16 +25,14 @@ class _JournalscreenState extends State<Journalscreen> {
           child: Column(
             children: [
               for (int i = 0; i <= 40; i++)
-                Container(
-                  child: Text(
-                    "this is journal list $i",
-                    style: TextStyle(
-                      color: const Color.fromARGB(255, 45, 38, 38),
-                      fontSize: 23,
-                    ),
+                Text(
+                  "this is journal list $i",
+                  style: TextStyle(
+                    color: const Color.fromARGB(255, 45, 38, 38),
+                    fontSize: 23,
                   ),
                 ),
-            ],
+            ]
           ),
         ),
       ),
