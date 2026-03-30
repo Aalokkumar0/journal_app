@@ -11,7 +11,15 @@ class _JournalscreenState extends State<Journalscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("The journals")),
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: Center(
+          child: Text(
+            "The journals",
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
+          ),
+        ),
+      ),
       body: Center(
         child: SingleChildScrollView(
           child: Column(
@@ -22,6 +30,7 @@ class _JournalscreenState extends State<Journalscreen> {
                     "this is journal list $i",
                     style: TextStyle(
                       color: const Color.fromARGB(255, 45, 38, 38),
+                      fontSize: 23,
                     ),
                   ),
                 ),
