@@ -22,7 +22,7 @@ class _JournalscreenState extends State<Journalscreen> {
         ),
       ),
       body: ListView.builder(
-        itemCount: 20, 
+        itemCount: 10, 
         itemBuilder: (context, index){
           return Cardscreen();
         },
