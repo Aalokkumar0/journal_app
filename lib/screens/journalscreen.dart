@@ -13,7 +13,7 @@ class _JournalscreenState extends State<Journalscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromARGB(255, 92, 133, 75),
         title: Center(
           child: Text(
             "The Journals",
@@ -21,11 +21,10 @@ class _JournalscreenState extends State<Journalscreen> {
           ),
         ),
       ),
-      body: ListView.builder(
+      body:ListView.builder(
         itemCount: 10, 
         itemBuilder: (context, index){
           return Cardscreen();
-
           
         },
         
