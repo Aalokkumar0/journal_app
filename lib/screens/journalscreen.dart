@@ -25,6 +25,8 @@ class _JournalscreenState extends State<Journalscreen> {
         itemCount: 10, 
         itemBuilder: (context, index){
           return Cardscreen();
+
+          
         },
         
       ),
