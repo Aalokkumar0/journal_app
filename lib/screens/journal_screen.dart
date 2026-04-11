@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:journal_app/screens/widget/cardscreen.dart';
+import 'package:journal_app/screens/widget/card_screen.dart';
 
 class Journalscreen extends StatefulWidget {
   const Journalscreen({super.key});

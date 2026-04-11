@@ -7,6 +7,7 @@ class Cardscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 6,
+      
       shadowColor: Colors.black26,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),
@@ -17,8 +18,8 @@ class Cardscreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
             colors: [
-              Color(0xfff5f7fa),
-              Color(0xffc3cfe2),
+              Color.fromARGB(161, 36, 72, 126),
+              Color.fromARGB(255, 195, 226, 202),
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
@@ -75,7 +76,9 @@ class Cardscreen extends StatelessWidget {
                 ],
               ),
             ],
+            
           ),
+          
         ),
       ),
     );

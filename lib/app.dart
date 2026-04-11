@@ -1,5 +1,5 @@
  import 'package:flutter/material.dart';
-import 'package:journal_app/screens/journalscreen.dart';
+import 'package:journal_app/screens/journal_screen.dart';
 
 class MyjournalApp extends StatelessWidget{
   const MyjournalApp({super.key});
