@@ -34,13 +34,27 @@ class _ButtomWidgetscreenState extends State<ButtomWidgetscreen> {
               ),
             ),
 
-             SizedBox(height: 20,),
+            SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                OutlinedButton(onPressed: () {}, child: Text("Cancle ")),
+                OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: const Color.fromARGB(255, 222, 96, 87),
+                  ),
+                  onPressed: () {},
 
-                OutlinedButton(onPressed: () {}, child: Text("Save ")),
+                  child: Text("Cancle ", style: TextStyle(color: Colors.white)),
+                ),
+
+                OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: const Color.fromARGB(255, 92, 174, 95),
+                  ),
+                  onPressed: () {},
+
+                  child: Text("Save ", style: TextStyle(color: Colors.white)),
+                ),
               ],
             ),
           ],
